@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scrapy = "*"
+scrapy-splash = "*"
+selenium = "*"
+scrapy-selenium = "*"
+pymongo = "*"
+dnspython = "*"
+google-cloud-bigquery = "*"
+
+[dev-packages]
+flake8 = "*"
+pycodestyle = "*"
+pylint = "*"
+black = "==18.9b0"
+
+[requires]
+python_version = "3.9"
